@@ -1,7 +1,6 @@
 ⇒ Version Control System atau biasa disebut source code management merupakan sistem yang mengelola perubahan dari sebuah dokumen, program komputer, web dll
    • Git adalah software yang mengelola perubahan file di dalam folder yang di sebut repository atau repo
      ↪ dalam git riwayat perubahan file disimpan menggunakan serangkaian commit
-     ↪  di sebut branch
      ↪ menggabungkan 2 project atau lebih disebut merge
      ↪ git tidak sama dengan github karena git bisa di gunakan tanpa github begitupun github
        📝 Istilah dalam git
