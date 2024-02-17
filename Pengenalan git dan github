@@ -1,1 +1,10 @@
-Version
+⇒ Version Control System atau biasa disebut source code management merupakan sistem yang mengelola perubahan dari sebuah dokumen, program komputer, web dll
+   • Git adalah software yang mengelola perubahan file di dalam folder yang di sebut repository atau repo
+     ↪ dalam git riwayat perubahan file disimpan menggunakan serangkaian commit
+     ↪ mengerjakan project lebih dari 1 orang dengan satu repo yang sama di sebut branch
+     ↪ menggabungkan 2 project atau lebih disebut merge
+     ↪ git tidak sama dengan github karena git bisa di gunakan tanpa github begitupun github
+   • Github Layanan cloud untuk menyimpan dan mengelola project atau repo git kayak semacam sosmednya programmer
+     ↪ proses mengirim dari git komputer ke git github disbut push
+     ↪ proses menerima dari git github ke git komputer disbut pull 
+     ↪ pull and push commit caranya buat dulu repo di github kemudian di clone ke git komputer baru deh kesambung bisa pull and push
