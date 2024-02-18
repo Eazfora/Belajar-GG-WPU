@@ -25,7 +25,7 @@ $ ls => list untuk menegetahui di dalam direktori ada folder apa aja dan ciri ci
 $ cd => change direktori caranya $ cd namefoldernya kemudian bisa cek lagi dengan $ pwd untuk memasikan lokasi
 $ git init => untuk mengubah folder biasa menjadi repo git agar git mengawasi folder kita dari tiap perubahan di tandai dengan nama branch master/main setelah itu git membuatkan folder .git
   untuk menyimpan si staging dan history dan sekarang namanya bukan folder lagi tapi repo bagi si git, kalo di local ya ttp folder.
-// ketika tidak ingin mundur di posisi staging
+
 $ git status => mengecek apakah ada file atau folder bertambah atau berubah di tandai dengan untracked dan filenya warna merah, nah kalo dalam posisi ini kita perlu bawa ke staging area dengan cara 
   (untuk satu file formatnya $ git add namefile, kalo untuk semuanya formatnya $ git add .) setelah melakukan add, kemudian cek lagi dengan status jika kondisi nya berubah dengan di tandai change to be commit
   dan warna filenya hijau, maka itu sudah masuk ke dalam staging area.
@@ -34,7 +34,9 @@ $ git config --global user.email "email github"
 $ git config --global user.name "username github"
 
 $ git commit => masuk ke dalam default teks editor ketika seting download git, kalo tiba tiba masuk ke vim => tekan esc lalu ketik :q! enter
-$ git commit -m "pesan anda" => setelah itu git sudah memeriksa perubahannya dan masuk ke history, ketika cek stts keteranganya working tree clean
+$ git commit -m "pesan anda" => setelah itu git sudah memeriksa perubahannya dan masuk ke history, ketika cek stts keteranganya working tree clean, selesai deh.
+$ git log => untuk mengetahui history commit, $ git log -3 (bebas sesuai kebutuhan) => history 3 commit terakhir, $ git log -- file -- => untuk history spesifik file
+$ git checkout (5 digit commit hash awal) -- namefile => untuk mengembalikan file yang terhapus, karena walaupun di hapus, file ttp ke keep di .git
 
 
 
