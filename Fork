@@ -1,0 +1,10 @@
+fork / forking
+membuat copy/duplikat dari repo orang lain (beserta historinya)
+jembatan antara repo original dengan duplikatnya
+modifikasi terhadap repo original
+berkontribusi terhadap repo orang lain
+fork != clone, fungsi nya sama sama duplikat bedanya clone duplikat ke lokal komputer kalo fork duplikat ke akun/komputer lain
+
+tentang fork
+ketika fork punya orang lain maka hasil fork nya ada credit (darimana asal reponya)
+bisa kolaborasi
