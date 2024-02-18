@@ -24,4 +24,4 @@ $ pwd => print working directory untuk mengetahui lokasi working tree
 $ ls => untuk menegetahui di dalam direktori ada folder apa aja dan ciri ciri folder ada / nya
 $ cd => change direktori caranya $ cd namefoldernya kemudian bisa cek lagi dengan $ pwd untuk memasikan lokasi
 $ git init => untuk mengubah folder biasa menjadi repo git agar git mengawasi folder kita dari tiap perubahan di tandai dengan nama branch master/main setelah itu git membuatkan folder .git
-  untuk menyimpan si staging dan history dan sekarang namanya bukan folder lagi tapi repo
+  untuk menyimpan si staging dan history dan sekarang namanya bukan folder lagi tapi repo bagi si git, kalo di local ya ttp folder
