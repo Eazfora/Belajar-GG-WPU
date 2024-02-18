@@ -36,7 +36,8 @@ $ git config --global user.name "username github"
 $ git commit => masuk ke dalam default teks editor ketika seting download git, kalo tiba tiba masuk ke vim => tekan esc lalu ketik :q! enter
 $ git commit -m "pesan anda" => setelah itu git sudah memeriksa perubahannya dan masuk ke history, ketika cek stts keteranganya working tree clean, selesai deh.
 $ git log => untuk mengetahui history commit, $ git log -3 (bebas sesuai kebutuhan) => history 3 commit terakhir, $ git log -- file -- => untuk history spesifik file
-$ git checkout (5 digit commit hash awal) -- namefile => untuk mengembalikan file yang terhapus, karena walaupun di hapus, file ttp ke keep di .git
+$ git checkout (5 digit commit hash awal) -- namefile => untuk mengembalikan file yang terhapus, karena walaupun di hapus, file ttp ke keep di .git, kemudian commit lagi
+  karena file nya berada di staging area.
 
 
 
