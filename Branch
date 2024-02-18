@@ -1,12 +1,24 @@
-•apa itu branch ? 
-  ↪branch bisa di bilang repo clonig dari main atau master, main atau master itu sendiri merupakan repo jalur utama sedangkan branch adalah cabang dari repo utama, sehingga dari branch tersebut
+• apa itu branch ? 
+  ↪ branch bisa di bilang repo clonig dari main atau master, main atau master itu sendiri merupakan repo jalur utama sedangkan branch adalah cabang dari repo utama, sehingga dari branch tersebut
     2 orang atau lebih bisa mengotak atik fitur jalur utama tanpa mengganggu perubahan jalur utama. karena kan branch ini cloningan ges.
 
-•apa itu branching ?
-  ↪membuat git branch
-  ↪membuat snapshot tanpa ganggu main
-  ↪fitur experimental
-  ↪2 orang mengerjakan repo yang sama
+• apa itu branching ?
+  ↪ membuat git branch
+  ↪ membuat snapshot tanpa ganggu main
+  ↪ fitur experimental
+  ↪ 2 orang mengerjakan repo yang sama
 
-•apa itu merge ?
-  ↪merge merupakan istilah git ketika seseorang selesai mengerjakan fitur di branch, kemudian hasil perubahan di branch tersebut di satukan ke main atau master dengan pull request.
+• apa itu merge ?
+  ↪ merge merupakan istilah git ketika seseorang selesai mengerjakan fitur di branch, kemudian hasil perubahan di branch tersebut di satukan ke main atau master dengan pull request.
+
+• apa itu checkout ?
+  ↪ berpindah ke branch / commit yang lain
+
+• apa itu pull request
+  ↪ meminta pemilik repo untuk mengambil perubahan yang telah dilakukan
+
+• apa itu merge ?
+  ↪ menggabungkan 2 branch
+
+• apa itu merge conflict
+  ↪ baris yang sama di ubah oleh 2 branch yang berbeda
