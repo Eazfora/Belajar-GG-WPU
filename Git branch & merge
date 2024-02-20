@@ -18,5 +18,9 @@ tinggal panggil $ (variabelname) => untuk terlihat graph lebih jelas kalo commit
 Cara pindah branch => $ git checkout (namabranch), kemudian branch yang aktif di tandai dengan head dan kalo di periksa nama branch nya jadi hijau
 
 Merge
-Fast 
+Terdapat 2 jenis merge :
+Fast Forward
 Direct Path => satu jalur commit
+Cara merge nya, pindah ke branch utama, lalu $ git merge (branchcabang) => branch yang ingin di gabung, untuk mengetahui branch yang sudah di merge $ git branch --merged
+kemudian delete branch cabangnya $ git branch -d (nama branch cabang), untuk menghapus branch cabang yang tidak ingin di merge $ git branch -D (nama branch cabang).
+Three-Way
