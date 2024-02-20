@@ -16,3 +16,7 @@ branch yang sedang aktif atau head bisa di cek dengan $ git branch lalu hasilnya
 Cara membuat graph commit => bisa disimpan dalam variabel atau ngga juga gpp, disini dalam bentuk variabel. $ alias (variabelname)="git log --all --decorate --oneline --graph"
 tinggal panggil $ (variabelname) => untuk terlihat graph lebih jelas kalo commit branch nya udah banyak ges
 Cara pindah branch => $ git checkout (namabranch), kemudian branch yang aktif di tandai dengan head dan kalo di periksa nama branch nya jadi hijau
+
+Merge
+Fast 
+Direct Path => satu jalur commit
