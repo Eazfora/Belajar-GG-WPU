@@ -1,0 +1,18 @@
+Saat instal git, di kasih software git bash dan git UI.
+2 Cara menggunakan folder sebagai repo:
+1. Buka git bash, lalu ketik $ cd (tarik foldernya)
+2. Buka foldernya lalu klik kanan dan buka git bash
+
+Saat di Visual Studio Code, ketika file baru status U (untracked) maka dia harus masuk ke staging area dulu dengan add. namun ketika file status M (modified), maka proses 
+selanjutnya cukup git commit -am "" tanpa harus add ke staging karena sudah di dalam staging.
+di dalam history commit terdapat hash, email, username, dan time.
+
+Branch 
+Jadi dalam git itu ada default branch yaitu master/main yang telah di buatkan oleh git, namun kita juga dapat membuat branch sendiri tapi default branch tetap branch utama,
+semua branch yang kita buat adalah branch cabang, jadi branch cabang akan mengcopy semua file yang ada di branch utama. Nah untuk mengetahui kita ada di branch mana, maka git
+memberi tanda head di branch yang sedang aktif/sedang ingin kita edit.
+Cara membuat branch sendiri => $ git branch <nama branch> 
+branch yang sedang aktif atau head bisa di cek dengan $ git branch lalu hasilnya berupa data branch dengan branch nya warna hijau yang sebagai headnya
+Cara membuat graph commit => bisa disimpan dalam variabel atau ngga juga gpp, disini dalam bentuk variabel. $ alias (variabelname)="git log --all --decorate --oneline --graph"
+tinggal panggil $ (variabelname) => untuk terlihat graph lebih jelas kalo commit branch nya udah banyak ges
+Cara pindah branch => $ git checkout (namabranch), kemudian branch yang aktif di tandai dengan head dan kalo di periksa nama branch nya jadi hijau
