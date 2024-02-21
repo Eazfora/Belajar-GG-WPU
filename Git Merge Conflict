@@ -1,2 +1,9 @@
 Git Merge Conflict
-Ketika dua branch mengerjakan satu baris yang sama dalam satu repo lalu di merge
+Ketika dua branch mengerjakan satu baris yang sama dalam satu repo lalu di merge, maka akan terjadi conflict pada baris tersebut, selesaikan masalahnya. Area hijau area head/aktif
+area biru area dengan data yang berubah yang ingin di gabungkan. Setelah masalah diselesaikan kemudian $ git add . dan $ git commit/$ git commit -m "".
+Visual graph akan otomatis terhenti jika komputer di matikan.
+Untuk commit seperti ini $ git commit maka akan otomatis terbuka pesan default di teks editor, jadi cukup ctrl + s di editor pesan lalu close, kemudian terbentuk pesan default.
+Ketika melihat riwayat commit di $ git log, maka untuk keluar nya ketik q
+Jika ingin pindah ke commit sebelumnya, gunakan cara ini $ git checkout (7 hash digit depan), jika ingin buat cabang baru disitu bisa gunakan $ git branch (namebranch), kalo headnya
+masih terpisah bisa $ git checkout (namebranch)
+
