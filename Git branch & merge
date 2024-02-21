@@ -23,4 +23,6 @@ Fast Forward
 Direct Path => satu jalur commit
 Cara merge nya, pindah ke branch utama, lalu $ git merge (branchcabang) => branch yang ingin di gabung, untuk mengetahui branch yang sudah di merge $ git branch --merged
 kemudian delete branch cabangnya $ git branch -d (nama branch cabang), untuk menghapus branch cabang yang tidak ingin di merge $ git branch -D (nama branch cabang).
-Three-Way
+Three-Way Merge
+Not Direct Path => Beda Jalur commit
+Cara merge nya sama kayak sebelumya, kalo masuk ke vim klik esc kemudian ketik :wq! enter 
