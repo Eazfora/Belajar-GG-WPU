@@ -16,4 +16,4 @@ Untuk mengecek username and useremail di local bisa ketik $ git config --list, k
 $ git config --global user.email "emaillu" lalu enter, ganti aja sesuain dengan github lu, bisa make local untuk folder yang lu pake doang kalo global semua folder di komputer.
 Jika membuat perubahan lagi di file local, maka file yang di github belum sama, agar sama lagi atau uptodate tinggal push aje.
 Jika ingin keluar folder di git bush ketik $ cd .. lalu ingin buat folder cabang di folder yang sama ketik $ mkdir (nama file) singkatan dari make directory, lalu masuk ke folder
-yang baru dibuat ketik $ cd (namafolder)
+yang baru dibuat ketik $ cd (namafolder).
