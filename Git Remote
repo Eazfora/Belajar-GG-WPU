@@ -17,3 +17,9 @@ $ git config --global user.email "emaillu" lalu enter, ganti aja sesuain dengan 
 Jika membuat perubahan lagi di file local, maka file yang di github belum sama, agar sama lagi atau uptodate tinggal push aje.
 Jika ingin keluar folder di git bush ketik $ cd .. lalu ingin buat folder cabang di folder yang sama ketik $ mkdir (nama file) singkatan dari make directory, lalu masuk ke folder
 yang baru dibuat ketik $ cd (namafolder).
+
+2 Cara cloning folder local ke github bisa https atau ssh :
+1. Jika belum punya repo, liat caranya buat repository dulu di github lalu ikutin cara create a new repository
+2. Jika sudah punya repo, liat caranya buat repository dulu di github lalu ikutin cara push and existing repository
+Untuk nama remote bisa di ubah yang origin jadi nama terserah, cek remote $ git remote, kalo mau apus remote $ git remote rm (nama remote), cara untuk lihat detil remote
+$ git remote -v
