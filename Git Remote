@@ -12,3 +12,8 @@ Kalau donwload zip hanya mendapatkan filenya saja tapi tidak terhubung local den
 Remote secara default telah di beri nama origin apabila repo local sudah terhubung dengan remote, cek di git bash dengan ketik $ git remote maka muncul nama origin, untuk 
 melihat detil remote dengan alamatnya $ git remote -v, ketika cek graphnya maka repo local dengan remote uptodate, warna merah repo dari remote. Ketika kita modif di local
 lalu dicommit, maka branch local maju 1 commit mendahului branch remote, agar perubahan remote uptodate dengan local ketik $ git push maka branch local dan remote sama lagi.
+Untuk mengecek username and useremail di local bisa ketik $ git config --list, kalo mau ganti usernya ketik $ git config --global user.name "namalu" lalu enter, lanjut
+$ git config --global user.email "emaillu" lalu enter, ganti aja sesuain dengan github lu, bisa make local untuk folder yang lu pake doang kalo global semua folder di komputer.
+Jika membuat perubahan lagi di file local, maka file yang di github belum sama, agar sama lagi atau uptodate tinggal push aje.
+Jika ingin keluar folder di git bush ketik $ cd .. lalu ingin buat folder cabang di folder yang sama ketik $ mkdir (nama file) singkatan dari make directory, lalu masuk ke folder
+yang baru dibuat ketik $ cd (namafolder)
