@@ -1,6 +1,6 @@
 Git Remote
 Sebagai penghubung antara Local dengan github dan github sebagai remote yang menyimpan repo yang ada di local, ketika di local ada perubahan bisa di push (kirim) ke remote,
-jika di remote terjadi perubahan misal ada orang yang yang mengubahnya, jadi perubahanya bisa di tarik (pull)/(fetch) dari remote ke local. GIthub sebagai remote yang artinya bisa 
+jika di remote terjadi perubahan misal ada orang yang yang mengubahnya, jadi perubahanya bisa di tarik (pull) dari remote ke local. GIthub sebagai remote yang artinya bisa 
 menjadi jembatan untuk terhubung dengan komputer lain
 Cloning repo ada 2 cara : 
 Kalau donwload zip hanya mendapatkan filenya saja tapi tidak terhubung local dengan remote
@@ -21,5 +21,7 @@ yang baru dibuat ketik $ cd (namafolder).
 2 Cara cloning folder local ke github bisa https atau ssh :
 1. Jika belum punya repo, liat caranya buat repository dulu di github lalu ikutin cara create a new repository
 2. Jika sudah punya repo, liat caranya buat repository dulu di github lalu ikutin cara push and existing repository
+
 Untuk nama remote bisa di ubah yang origin jadi nama terserah, cek remote $ git remote, kalo mau apus remote $ git remote rm (nama remote), cara untuk lihat detil remote
 $ git remote -v
+$ git fetch untuk mengece sy
