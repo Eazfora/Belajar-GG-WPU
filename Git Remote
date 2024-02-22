@@ -2,6 +2,10 @@ Git Remote
 Sebagai penghubung antara Local dengan github dan github sebagai remote yang menyimpan repo yang ada di local, ketika di local ada perubahan bisa di push (kirim) ke remote,
 jika di remote terjadi perubahan misal ada orang yang yang mengubahnya, jadi perubahanya bisa di tarik (pull) dari remote ke local. GIthub sebagai remote yang artinya bisa 
 menjadi jembatan untuk terhubung dengan komputer lain
-Cloning repo ada 2 cara :
+Cloning repo ada 2 cara : 
+Kalau donwload zip hanya mendapatkan filenya saja tapi tidak terhubung local dengan remote
 1. Melalui https
+   Salin link https repo di remote, kemudian buka folder di local dan buka git bash, ketik $ git clone (link https) lalu enter.
 2. Melalui SSH (harus cnofigurasi key dulu di komputer)
+
+Remote se
