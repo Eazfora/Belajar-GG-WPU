@@ -24,4 +24,5 @@ yang baru dibuat ketik $ cd (namafolder).
 
 Untuk nama remote bisa di ubah yang origin jadi nama terserah, cek remote $ git remote, kalo mau apus remote $ git remote rm (nama remote), cara untuk lihat detil remote
 $ git remote -v
-$ git fetch untuk mengece sy
+Ketika commit file di local dan ada file yang sama di remote isinya beda, maka akan terjadi conflict ketika di push, $ git fetch untuk mengececek repo yang di remote apakah 
+sudah sama apa blom dengan local, lalu cek graph akan ada cabang commit, kalo begini untuk melakukan merge hrs di $ git pull lalu benerin problemnya di editor
