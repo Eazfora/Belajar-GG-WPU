@@ -1,1 +1,3 @@
-
+Github Pages atau halaman github
+Github sebagai web hosting gratis hanya untuk web statik saja yang komponenya html css dan javasript, tidak bisa menjalakan database, php, mysql, karena bukan web server.
+Dalam membuat website pages github namanya gaboleh sembarangan, format: username.github.io / username.github.com public/private
