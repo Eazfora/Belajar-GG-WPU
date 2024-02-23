@@ -1,0 +1,8 @@
+Terhubung ke beberapa remote sekaligus, misal ada 3 buah repo sekaligus (local, akun github sendiri, hasil fork akun lain) kita bisa hubungkan semuanya agar bisa uptodate, 
+dari ketiga repo ttp satu jenis repo cuma beda tempat, dalam hal ini gw make repo hasil fork, otomatis di akun gw ada repo hasil fork, kemudian cloning ke local jadi keiganya
+punya repo yang sama. Cloning dari akun asli ke local, untuk akun asli ke local akan otomatis membentuk remote origin, untuk akun fork butuh buat remote lagi $ git remote add
+(usernamefork) ssh/https. Cek $ git remote -v maka masing masing remote sudah punya alamatnya, ketika di graph akan terlihat bahwa branch dari akun fork blom uptodate, maka 
+dari itu ketik $ git fetch (nama remote yang blom oneline), lalu cek pastikan sudah uptodate ges.
+Selanjutnya, jika di repo yang punya asli (fork) nya ada perubahan, cara ceknya kita harus $ git fetch (nama remote yang tersambung dengan akun asli pemilik repo fork) kemudian 
+graph dan akan terlihat perubahan nya. Nah agar master uptodate ketik $ git merge (nameremote/namebranch), selanjutnya agar repo di akun gw juga uptodate ketik $ git push -u
+origin (nama branch). kemudian cek pastikan semua sudah uptodate.
