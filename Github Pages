@@ -1,3 +1,14 @@
 Github Pages atau halaman github
 Github sebagai web hosting gratis hanya untuk web statik saja yang komponenya html css dan javasript, tidak bisa menjalakan database, php, mysql, karena bukan web server.
-Dalam membuat website pages github namanya gaboleh sembarangan, format: username.github.io / username.github.com public/private
+Dalam membuat website pages github nama repository gaboleh sembarangan, format: username.github.io / username.github.com bisa public dan private.
+Cara Hosting Gratis di Github:
+1. Siapkan folder local yang berisi file untuk hosting, kemudian jadikan repo lalu masukin ke staging dan commit.
+2. Buat repository dengan nama yang sesuai, public/private di github tanpa initialisasi file, tapi kalo hosting private harus langganan dulu wkwkwkwk.
+3. Jadikan folder local menjadi repo kemudian buat remote dengan nama bebas untuk menghubungkan ke github, pake SSH recomended. Kalo push gabisa cek stts udah staging apa blom.
+4. Setelah terhubung bisa cek lewat graph, kalo terhubung branchnya oneline.
+5. Kembali ke repo github klik setelan samping insight, kemudian pergi ke pages, ke bagian branch pilih master/branch yang ada file web yang ingin di tampilkan dan pilih root
+   lalu save. kemudian refresh trush hingga muncul sitenya. Baru buka di google ketik nama reponya/domain jika di custom.
+
+ Hosting untuk akun, hosting untuk repo masing masing.
+Hosting akun itu hostingan yang paling awal sebelum hosting repo lainya, jadi ketika akses di google cukup ketik nama reponya
+Hosting untuk repo masing masing, ketika akses di google harus ketika repoakun slice nama repo yang ingin di tampil.
