@@ -1,0 +1,5 @@
+$ code . akan masuk ke code editor default git. Jika ingin membuat perubahan pada sebuah website, jangan dilakukan di branch master default karena akan permanent, lebih baik
+buat branch cabang sebagai branch experiment kalo hasil perubahannya bagus kita bisa masukan ke branch master/branch utama.
+Cara buat branch :
+1. buat di git $ git branch (namabranch cabang), kalo mau cek ada branch apa saja $ git branch, kalo mau pindah branch $ git checkout (nama branch), dalam visual studio code
+cara tahu lagi ada di branch mana, ada di pojok kiri bawah ges.
