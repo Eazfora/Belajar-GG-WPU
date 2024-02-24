@@ -3,3 +3,12 @@ buat branch cabang sebagai branch experiment kalo hasil perubahannya bagus kita 
 Cara buat branch :
 1. buat di git $ git branch (namabranch cabang), kalo mau cek ada branch apa saja $ git branch, kalo mau pindah branch $ git checkout (nama branch), dalam visual studio code
 cara tahu lagi ada di branch mana, ada di pojok kiri bawah ges.
+Kalo di branch cabang ada perubahan pastikan di commit dulu, maka secara graph branch ini akan maju 1 commit mendahului branch fork dan local, karena ketiganya saling terhubung
+diperlukan push ke github dulu $ git push origin (nama branch yang ada perubahanya), setelah itu lakukan pull ke request akun fork dan tinggal tunggu jawaban dari akun fork. 
+trus dari akun fork akan mengecek di bagian pull request lalu cek files changenya jika perubahan bagus maka diterima, sebelum di terima bisa ke review change untuk melakukan 
+permintaan perubahan jika ada yang salah, bisa langsung terima di approve, bisa comment juga, nah kalo dah diterima bisa di close di pull reuquest sebagai tanda telah selesai maka 
+di akun fork sudah ada perubahannya, untuk mengetahui ada perubahanya $ git fetch (remote yang mau dicek apakah ada perubahanya), cek di graph jika memang ada perubahan maka
+dia akan maju 1 commit, nah jadi branch features dari cabang master akun hasil repo fork sebagai alat untuk melakukan perubahan, jika di akun fork asli nya menerima perubahan
+baru deh kita tinggal merge ke branch utama kita di master caranya pindah ke branch master dulu $ git merge (namaremote/branch dari akun si fork yang ada perubahan), setelah
+itu $ git origin master dan cek pastikan remote local dengan akun fork sudah oneline. Nah kalo breanch cabang sudah tidak dibutuhkan lagi maka di hapus $ git branch -d (namebranch)
+dan hapus remote nya juga $ git push (namaremotnya) --delete (namebranch). selesai deh repo akun kita dengan fork sudah uptodate.
