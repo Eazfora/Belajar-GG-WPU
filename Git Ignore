@@ -1,0 +1,2 @@
+File yang bertugas untuk menyeleksi file yang akan di add dan commit atau bisa dibilang semua file, folder, perwakilan extensi jika di taro di dalam .gitignore akan di abaikan
+oleh git, ketika di add dan commit apapun yang sudah di deklarasikan di .gitignore gak akan kebawa
