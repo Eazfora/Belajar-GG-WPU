@@ -1,0 +1,7 @@
+Three way merge/merge commit => menggabungkan branch menjadi sejajar lagi dan membuat commit baru.
+Idealnya fast forward merging supaya tidak membuat commit baru, ini memudahkan jika berkolaborasi dengan banyak komputer, nah cara ini untuk mencegah three way yaitu dengan cara
+rebase yang dmn jembatan arah branch cabang mengikuti bertambahnya penambahan commit pada branch utama.
+Cara rebase :
+1. Buat repository pusat di salah satu akun, anggap aja ketua/ akun pusat kolaborasi.
+2. Di repository pusat pergi ke setelan samping insight ke collaborators
+fast forward dan three way => workflow/alur kerja
