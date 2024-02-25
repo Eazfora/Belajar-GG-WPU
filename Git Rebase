@@ -6,3 +6,9 @@ Cara rebase :
 2. Di repository pusat pergi ke setelan samping insight ke collaborators, kemudian add colaboratorsnya menggunakan usernamenya, kemudian akun yang di undang pergi ke setelan
 untuk menerima invite nya di menu organization. Kalo sudah terhubung mengerjakan project tanpa ada pull request.
 fast forward dan three way => workflow/alur kerja
+
+Cara agar nama branch pusat localnya sama dengan branch pusat di repo github :
+git branch -m main Branch_Utama
+git fetch origin
+git branch -u origin/Branch_Utama Branch_Utama
+git remote set-head origin -a
