@@ -3,5 +3,6 @@ Idealnya fast forward merging supaya tidak membuat commit baru, ini memudahkan j
 rebase yang dmn jembatan arah branch cabang mengikuti bertambahnya penambahan commit pada branch utama.
 Cara rebase :
 1. Buat repository pusat di salah satu akun, anggap aja ketua/ akun pusat kolaborasi.
-2. Di repository pusat pergi ke setelan samping insight ke collaborators, kemudian add
+2. Di repository pusat pergi ke setelan samping insight ke collaborators, kemudian add colaboratorsnya menggunakan usernamenya, kemudian akun yang di undang pergi ke setelan
+untuk menerima invite nya di menu organization. Kalo sudah terhubung mengerjakan project tanpa ada pull request.
 fast forward dan three way => workflow/alur kerja
