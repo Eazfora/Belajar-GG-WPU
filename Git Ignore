@@ -1,2 +1,8 @@
 File yang bertugas untuk menyeleksi file yang akan di add dan commit atau bisa dibilang semua file, folder, perwakilan extensi jika di taro di dalam .gitignore akan di abaikan
-oleh git, ketika di add dan commit apapun yang sudah di deklarasikan di .gitignore gak akan kebawa
+oleh git, ketika di add dan commit apapun yang sudah di deklarasikan di .gitignore gak akan kebawa ke area staging dan commit. kalo udah tinggal push ke github. File yang di sarankan
+di ignore oleh github "https://github.com/github/gitignore" atau bisa kunjungi "https://www.toptal.com/developers/gitignore/" lalu tulis di colom jenis system operasi, teks editornya apa,
+bahasa apa misal javascript. Setelah itu salin semua teks yang telah dibuatkan lalu paste ke .gitignore
+Contoh cara penggunaanya :
+namefolder/
+namefile.extention
+perwakilan extensi => *.txt => artinya semua file yang ekstensi nya txt akan di abaikan
