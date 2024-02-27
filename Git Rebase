@@ -6,7 +6,7 @@ Cara rebase :
 1. Buat repository pusat di salah satu akun, anggap aja ketua/ akun pusat kolaborasi.
 2. Di repository pusat pergi ke setelan samping insight ke collaborators, kemudian add colaboratorsnya menggunakan usernamenya, kemudian akun yang di undang pergi ke setelan
 untuk menerima invite nya di menu organization. Kalo sudah terhubung mengerjakan project tanpa ada pull request.
-
+  
 
 Cara agar nama branch pusat localnya sama dengan branch pusat di repo github :
 git branch -m main Branch_Utama
@@ -14,5 +14,5 @@ git fetch origin
 git branch -u origin/Branch_Utama Branch_Utama
 git remote set-head origin -a
 
-Cara membuat branch cabang dan langsung pindah $ git checkout -b (namabranchnya), biasakan sebelum melakukan merging ke dalam master biasakan pull dulu masternya buat jaga jaga
+Cara membuat branch cabang dan langsung pindah $ git checkout -b (namabranchnya), biasakan sebelum melakukan merging ke dalam master (akun pusat) biasakan pull dulu masternya buat jaga jaga
 siapa tau master nya berubah ketika lagi mengerjakan.
